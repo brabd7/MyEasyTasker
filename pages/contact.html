@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Métadonnées -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Application de gestion de tâches simple et intuitive pour organiser votre quotidien. Gérez facilement vos listes de tâches, définissez des priorités, et suivez vos progrès pour une productivité accrue. Idéale pour les utilisateurs cherchant une solution efficace et facile à utiliser.">
+        <meta name="author" content="Abderahmane Behar Rahala">
+
+        <!-- Liens -->
+        <link rel="stylesheet" href="../assets/css/styleContact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Titre -->
+        <title>MyEasyTasker - Nous contacter</title>
+    </head>
+
+    <body>
+        <div class="left">
+            <div>
+                <h1>MyEasyTasker.</h1>
+                <p>L'équipe de MyEasyTasker vous remercie pour votre message. Nous nous engageons à vous répondre dans les meilleurs délais. Votre patience est grandement appréciée.</p>
+            </div>
+            <img src="../assets/images/app1.png" alt="Fond écran de l'application">
+        </div>
+        <div class="right">
+            <a href="../index.html"><i class="fa-solid fa-xmark"></i></a>
+            <h2>NOUS CONTACTER</h2>
+            <p>24/7 Nous répondrons à vos questions et problèmes</p>
+            <form>
+                <div class="name input">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="inputName" type="text" placeholder="Votre nom">
+                </div>
+                <div class="email input">
+                    <i class="fa-solid fa-at"></i>
+                    <input class="inputEmail" type="email" placeholder="Votre adresse électronique">
+                </div>
+                <div class="phone input">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <input class="inputPhone" type="text" placeholder="Votre numéro de téléphone">
+                </div>
+                <textarea class="inputMessage" placeholder="Votre message..."></textarea>
+                <input type="submit" class="submit" value="Envoyer le message">
+                <div class="check">
+                    <input type="checkbox" class="checkbox" name="check" required>
+                    <p>J'accepte <a href="./legal.html">les mentions légales.</a></p>
+                </div>
+                <p class="success">Votre message a bien été envoyé !</p>
+                <p class="error">Une erreur est survenue, veuillez envoyer un message directement sur br.abd7@gmail.com !</p>
+                <p class="notcheck">Veuillez accepter les mentions légales !</p>
+            </form>
+        </div>
+        <!-- Script formulaire de contact JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="../assets/js/formContact.js"></script>
+    </body>
+</html>
